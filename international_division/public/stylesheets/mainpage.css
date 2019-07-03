@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Adamina|Chonburi|Libre+Baskerville|Montserrat|Paytone+One&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.mainfeat{
+    position: relative;
+    top: 76px;
+    margin-bottom: 72px;
+    width: 1280px;
+    
+}
+
+.mainfeat #img1{
+    position: relative;
+}
+
+.mainfeat .bighead {
+    position: absolute;
+    top: 40%;
+    width: 450px;
+    height: auto;
+    background-color: rgba(12,109,97,0.9);
+    display: flex;
+}
+
+
+.bighead h{
+    padding: 20px;
+    font-size: 3em;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* top readings style control*//****//*top readings style control*/
+
+.scrolling-info {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 0px;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(108,104,99,0.4);
+    height: 500px;
+    width: 1280px;
+    
+}
+
+.scrolling-info h1{
+    text-align: center;
+    position: relative;
+    top: 10%;;
+    font-size: 3em;
+    color: white;
+    
+    
+}
+
+.scrolling-info h{
+    font-size: 1.8em;
+    
+}
+
+
+#info1{
+    display: inline;
+    float: left;
+    position: relative;
+    top: 40px;
+    left: 160px;
+    background-color: white;
+    margin: 30px;
+    padding: 30px;
+    width: 350px;
+    height: 40%;
+}
+
+#info2{
+    float: left;
+    display: inline;
+    position: relative;
+    top: 40px;
+    left: 150px;
+    background-color: white;
+    padding: 30px;
+    width: 350px;
+    margin: 30px;
+    height: 40%;
+}
+
+.scrolling-info p1{
+    display: block;
+    margin: 4%;
+}
+
+.botton{
+    padding: 0%;
+    margin-top: 30px;
+    
+}
+
+.scrolling-info p{
+    font-size: 2em;
+    background-color: rgba(12,109,97,1.0);
+    text-align: center;
+    border: 3px solid rgba(12,109,97,1.0);
+    margin: 0;
+}
+
+.botton :hover{
+    background-color: white;
+    color: rgba(12,109,97,1.0);
+    transition: 0.2s;
+    
+}
+
+.scrolling-info a{
+    text-decoration: none;
+    color: white;
+    width: 60%;
+}
+
+/* newsletter style control*//****//*newsletter style control*/
+
+.section1{
+    width: 1280px;
+}
+
+.section1 h1{
+ text-align: center;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    top: 10%;
+    font-size: 3em;
+    
+}
+
+.section1 h2{
+    
+}
+

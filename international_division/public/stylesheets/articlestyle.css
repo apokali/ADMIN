@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Adamina|Chonburi|Libre+Baskerville|Montserrat|Paytone+One&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* main style starts from here*/
+
+/* this is the main control of the feature *//****//* this is the main control of the feature */
+
+.main-feature{
+    position: relative;
+    top: 76px;
+    display: inline-block;
+    float: left;
+    display: flex;
+    width: 1280px;
+}
+
+.maintext {
+    background-color: rgba(12,73,109,1.0);
+    height: 420px;
+    width: 480px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.maintext h {
+    font-size: 3.5em;
+    position: relative;
+    left: 45px;
+    top: 100px;
+    
+}
+
+.maintext h2 {
+    font-size: 2em;
+    text-align: left;
+    position: relative;
+    top: 150px;
+    left: 45px;
+    width: 400px;
+    letter-spacing: 1.1px;
+}
+
+.main-pic {
+    top: 76px;
+    z-index: -1;
+}
+
+/* this is the main control of the content *//****//* this is the main control of the content */
+.main-content{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 80px;
+    left: 4%;
+    font-family: 'Chonburi', cursive;
+    width: 60%;
+    margin-bottom: 100px;
+    display: inline-block;
+    
+}
+
+.main-content #source {
+    letter-spacing: 1.1px;
+}
+
+.main-content hr{
+    border: 0;
+    height: 3px;
+    background-color: rgba(12,73,109,1.0);
+    
+}
+
+#text p{
+    font-family: 'Adamina', serif;
+    font-size: 1.4em;
+    letter-spacing: 1.1px;
+}
+
+#text h{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    color: rgba(12,109,97,1.0);
+}
+
+/* this is the main control of the side-navbar *//*//* this is the main control of the side-navbar */
+.side-navbar {
+    display: inline-block;
+    position: absolute;
+    top: 500px;
+    left: 70%;
+}
+
+
+
+/* this is the main control of the footer for div *//*//* this is the main control of the footer for div */
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(12,109,97,1.0);
+    display: block;
+    color: white;
+    text-align: center;
+}
